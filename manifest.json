@@ -1,0 +1,21 @@
+{
+    "name": "TheWhatWhere",
+    "short_name": "TheWhatWhere",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#3366ff",
+    "description": "A demo app for a fictional conference",
+    "theme_color": "#446bdf",
+    "icons": [
+      {
+        "src": "/WW512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "WW192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ]
+  }
