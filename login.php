@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
         $error = "The username or password you entered is incorrect";
     }
 
-
+//hi
 }
 
 ?>
