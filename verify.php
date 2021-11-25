@@ -3,7 +3,7 @@ if(isset($_GET['vkey'])){
     //Process verification
     $vkey = $_GET['vkey'];
 
-    $mysqli = NEW MySQLI('localhost','root','','test1');
+    $mysqli = NEW MySQLI('localhost','thewherewhat','','thewherewhat2021');
 
     $resultSet = $mysqli->query("SELECT verified, vkey FROM acounts WHERE verified = 0 AND vkey = '$vkey' LIMIT 1");
 

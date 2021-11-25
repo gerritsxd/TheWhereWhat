@@ -3,7 +3,7 @@ $error = NULL;
 
 if(isset($_POST['submit'])){
     //Connect to database
-    $mysqli = NEW MySQLI('localhost','root','','test1');
+    $mysqli = NEW MySQLI('localhost','thahewherewt','','thewherewhat2021');
 
     //Get from data
     $u = $mysqli->real_escape_string($_POST['u']);

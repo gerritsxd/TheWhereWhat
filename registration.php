@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
         //Form is valid
 
         //Connect to database
-        $mysqli = NEW MySQLI('localhost','root','','test1');
+        $mysqli = NEW MySQLI('localhost','thewherewhat','','thewherewhat2021');
 
         //Sanitize form data
         $u = $mysqli->real_escape_string($u);
