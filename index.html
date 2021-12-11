@@ -9,6 +9,11 @@
     <title>TheWhatWhere</title>
     <link rel="manifest" href="./manifest.json">
     <link rel="LogInButton" href="./registration.php">
+    <style>
+      body {padding: 0;margin: 0;}
+      #googleMap {width: 100vw;height: 100vh;}
+    </style>
+
   </head>
 <body>
   <title>
@@ -19,12 +24,16 @@
 <form>
   <input  class="LogInButton" onclick="window.location.href='/registration.php'" type="button" value="Register / Login" />
 </form>
+<style>
 
-<div id="googleMap" style="width: 100vw; height: 100vh" ></div>
+</style>
+<div id="googleMap"></div>
+
+
 <body style="padding: 0; margin: 0;" ></body>
+
+
 <script>
-window.addEventListener('resize', 
-	() => map.getViewPort().resize());
 function myMap() {
         var location = {lat: 52.363953, lng: 4.882714};
         
@@ -386,10 +395,10 @@ function placeMarker(position, map) {
   //icon: 'GERRITO.png',
   //Animation: google.maps.Animation.DROP,
   //title: 'hello2'
-//});
+//}); 
 
 }
-
+window.addEventListener('resize', () => Map.getViewPort().resize());
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3nWMXuE4-LK2T2ALH6scWLhvta1B0PD0&callback=myMap"></script>
