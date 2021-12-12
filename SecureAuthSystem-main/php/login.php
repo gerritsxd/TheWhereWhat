@@ -50,5 +50,5 @@
 		}
 	}
 	else {
-		echo peter la angui;
+		echo 7;
 	}
