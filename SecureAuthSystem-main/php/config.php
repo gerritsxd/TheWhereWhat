@@ -2,9 +2,9 @@
 
 	// Database Credentials
 	define('DB_HOST', '<thewherewhat.com>');
-	define('DB_DATABASE', '<WW');
-	define('DB_USERNAME', '<thewherewhat>');
-	define('DB_PASSWORD', '<thewherewhat2021>');
+	define('DB_DATABASE', '<register');
+	define('DB_USERNAME', '<bot1>');
+	define('DB_PASSWORD', '<aB;a^Y!4nN?J;v]4G:D]E-MzVjFBv/2(,*HHS}@6*Ug<>');
 
 	// Email Credentials
 	define('SMTP_HOST', 'mail.mydomain.com');
