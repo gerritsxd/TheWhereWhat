@@ -41,14 +41,14 @@
 				$res->free_result();
 			}
 			else {
-				echo 1;
+				echo 5;
 			}
 			$C->close();
 		}
 		else {
-			echo 2;
+			echo 6;
 		}
 	}
 	else {
-		echo 1;
+		echo 7;
 	}
